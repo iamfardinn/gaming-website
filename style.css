@@ -3,6 +3,7 @@
     font-family: 'Lato', sans-serif;
 font-family: 'Work Sans', sans-serif;
 box-sizing: border-box;
+
 }
 .container{
    
@@ -313,6 +314,32 @@ background-clip: text;
 }
 .play-game-text h3{
     font-size: 40px;
+}
+.category-container{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    
+    margin-top: 200px;
+    gap:35px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.category1{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    gap:25px;
+   border:2px solid transparent ;
+}
+
+.category1:hover{
+    color: #F948B2;
+    border-color: #F948B2;
 }
 
     

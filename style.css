@@ -148,16 +148,17 @@ background-clip: text;
 .we-are-gamer-container{
     width: 1472px;
     
-    border: 5px solid red;
+   
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    background-color: hsla(0, 93%, 84%, 0.075);
     
     
 }
 .gamer-image{
     width: 50%;
-    border: 5px solid bisque;
+   
     display: flex;
     justify-content: center;
     align-items: center;
@@ -168,20 +169,84 @@ background-clip: text;
 
 
 .gamer-image-main{
-    width: 80%;
+    width: 90%;
     height: 100%;
-    border: 5px solid salmon;
+    
     margin: 20px;
+    margin-right: 50px;
+    
    
     
    
 }
 
 .gamer-text{
-    width: 30%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    width: 20%;
+    text-align: right;
+    padding: 10px;
+    margin-right: 100px;
+    
+    
+    
+   
 }
+.gamer-text h3{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-size:2rem;
+margin-bottom: 10px;
+}
+.gamer-text p{
+    font-size: 11px;
+    
+}
+.gamer-text button{
+    font-size: 12px;
+    padding: 15px;
+    border-radius: 48px;
+   background-color: #FF42A5;
+    border: none;
+    color: white;
+}
+
+.online-text h3{
+    font-size: 30px;
+
+}
+.online-text span{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
+}
+.online-text p{
+    font-size: 14px;
+}
+.online-text{
+    text-align: center;
+    padding: 30px;
+}
+
+.collection{
+    border: 5px solid antiquewhite;
+   margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4,0.5fr);
+    
+}
+.card1{
+    width: 50%;
+    border: 5px solid salmon;
+}
+.card1-text{
+    font-size: 12px;
+}
+
+
+
+
     
     

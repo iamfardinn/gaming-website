@@ -2,6 +2,7 @@
     
     font-family: 'Lato', sans-serif;
 font-family: 'Work Sans', sans-serif;
+box-sizing: border-box;
 }
 .container{
    
@@ -11,6 +12,7 @@ font-family: 'Work Sans', sans-serif;
     align-items: center;
     margin: 0 auto;
     justify-content: space-around;
+    
    
 }
 .logo-container{
@@ -66,48 +68,53 @@ height: 30px;
     border-radius: 10px;
 
 }
+
+/* main */
+
 .main-container{
     max-width:  1920px;
-    border: 5px solid green;
-    background-color:aliceblue;
+   
     display: flex;
-    
-  
+    align-items: center;
+    margin-top: px;
     
     
 }
 
 .main-text{
-    max-width: 35%;
-    border: 5px solid red;
+    width: 50%;
+    
     height: 550px;
     display: flex;
+    justify-content: center;
     flex-direction: column;
-    padding-left: 220px;
-    padding-top: 100px;
-    background-color: hsl(0, 93%, 84%,13%);
+    background-color: hsla(0, 93%, 84%, 0.075);
+    align-items: center;
+    
+    
     
 }
 
 .play{
-    font-size: 45px;
+    font-size: 40px;
     text-transform: uppercase;
 }
 .goat{
-    font-size: 94px;
+    font-size: 80px;
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
 background-clip: text;
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
+
     
 }
 .main-text p{
-    font-size: 19px;
+    font-size: 16px;
  
 }
 
 .banner-btn1{
-    font-size: 17px;
+    font-size: 12px;
     padding: 15px;
     border-radius: 48px;
    background-color: #FF42A5;
@@ -117,7 +124,7 @@ background-clip: text;
 }
 
 .banner-btn2{
-    font-size: 17px;
+    font-size: 12px;
     padding: 15px;
     border-radius: 48px;
     background-color: #4EC5F7;
@@ -125,13 +132,56 @@ background-clip: text;
     color: white;
     
 }
-
 .main-image{
-    border: 5px solid blue;
+    width: 50%;
+    background-color: rgba(245, 245, 220, 0.192);
+   
+    
+    
+    
+}
+.main-image img{
+    height: 100%;
+    width: 78%;
+}
+
+.we-are-gamer-container{
+    width: 1472px;
+    
+    border: 5px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+    
+}
+.gamer-image{
+    width: 50%;
+    border: 5px solid bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
 
 
+
+.gamer-image-main{
+    width: 80%;
+    height: 100%;
+    border: 5px solid salmon;
+    margin: 20px;
+   
+    
+   
+}
+
+.gamer-text{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
     
     

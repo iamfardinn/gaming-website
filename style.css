@@ -1,0 +1,137 @@
+*{
+    
+    font-family: 'Lato', sans-serif;
+font-family: 'Work Sans', sans-serif;
+}
+.container{
+   
+    min-width: 50px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: space-around;
+   
+}
+.logo-container{
+  
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    
+    
+  
+}
+.logo-container img{
+    width: 59.041px;
+height: 30px;
+}
+.logo-container p{
+    font-size: 30px;
+    font-weight:bolder;
+    text-align: center;
+    font-style: normal;
+}
+.logo-container span{
+    color: #FF42A5 ;
+
+
+}
+.navbar{
+    
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:32px;
+    
+}
+
+.navbar a{
+    text-decoration: none;
+     color: #3C354F;
+     font-size: 15px;
+     font-weight:500;
+}
+.follow-us{
+    background-color: rgba(11, 2, 35, 0.10);
+    height: 50px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    border-radius: 10px;
+
+}
+.main-container{
+    max-width:  1920px;
+    border: 5px solid green;
+    background-color:aliceblue;
+    display: flex;
+    
+  
+    
+    
+}
+
+.main-text{
+    max-width: 35%;
+    border: 5px solid red;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 220px;
+    padding-top: 100px;
+    background-color: hsl(0, 93%, 84%,13%);
+    
+}
+
+.play{
+    font-size: 45px;
+    text-transform: uppercase;
+}
+.goat{
+    font-size: 94px;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+    
+}
+.main-text p{
+    font-size: 19px;
+ 
+}
+
+.banner-btn1{
+    font-size: 17px;
+    padding: 15px;
+    border-radius: 48px;
+   background-color: #FF42A5;
+    border: none;
+    color: white;
+    
+}
+
+.banner-btn2{
+    font-size: 17px;
+    padding: 15px;
+    border-radius: 48px;
+    background-color: #4EC5F7;
+    border: none;
+    color: white;
+    
+}
+
+.main-image{
+    border: 5px solid blue;
+}
+
+
+
+
+    
+    

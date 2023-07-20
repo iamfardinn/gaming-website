@@ -62,5 +62,14 @@
     text-align: center;
     margin-left: 100px;
   }
+  .collection{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  .card1-text{
+    text-align: center;
+  }
 }
   

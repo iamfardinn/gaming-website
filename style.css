@@ -89,9 +89,9 @@ height: 30px;
     display: flex;
     justify-content: center;
     flex-direction: column;
-    background-color: hsla(0, 93%, 84%, 0.075);
+    
     align-items: center;
-    background-image: url("images/Group\ 14.png");
+    background-image: url(images/Group\ 14.png);
     
     
     
@@ -150,7 +150,7 @@ background-clip: text;
 /* gamer-container */
 
 .we-are-gamer-container{
-    width: 1472px;
+    width: 1500px;
     
    
     display: flex;
@@ -347,6 +347,7 @@ background-clip: text;
     padding-top: 40px;
     background: #0B0223;
     margin-top: 60px;
+    
     
   
 }

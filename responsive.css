@@ -71,5 +71,19 @@
   .card1-text{
     text-align: center;
   }
-}
+
+  ..play-game-2{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow-x: hidden;
+  }
+  .small-img{
+    width: 0%;
+    margin-left: -200px;
+  }
+  .play-game-img img{
+    width: 100%;
+  }
+  
   

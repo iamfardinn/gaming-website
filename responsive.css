@@ -92,6 +92,26 @@
     
   }
 
+ .footer-img p{
+    color: white;
+ }
+ .footer-text{
+    padding-left: 20px;
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+ }
+ .footer-socials{
+    padding-left: 30px;
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+ }
+ .footer-1{
+    padding-left: 30px;
+   display: grid;
+   grid-template-columns: repeat(2,1fr); 
+ }
  
+
+
   
   
